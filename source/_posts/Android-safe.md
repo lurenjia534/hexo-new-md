@@ -16,7 +16,7 @@ tags:
 >引导加载程序是供应商专有的映像，负责在设备上启动内核。引导加载程序保护设备状态，并负责初始化可信执行环境 (TEE)并绑定其信任根。在将执行转移到内核之前，引导加载程序还会验证boot分区和recovery分区的完整性。
 
 简而言之 BootLoader 会校验设备的 Kernel、Boot、Recovery分区,来保证设备的完整性. 在这里我们不对BL的工作原理进行深度刨析,因为这偏离了本文的主要论点.
-
+<!--more-->
 ### 为什么要解锁 BootLoader
 
 > Android BootLoader 尽管保证了设备不受篡改和安全,但是也因为固有的校验而封闭,Android 向来是开源且自由的,所以一部分用户会出于各种需要而解锁BootLoader,同时现在的 [ODM/OEM](https://zh.wikipedia.org/zh-hk/%E4%BB%A3%E5%B7%A5%E7%94%9F%E4%BA%A7) 为了保障利益和生态链会极力限制用户解锁 BootLoader.
