@@ -92,7 +92,7 @@ Windows Powershell 用户
     .\adb.exe reboot sideload # 这应该重启到sideload接
 ```
 
-### sideload ROM
+### adb sideload ROM
 
 Windows cmd 用户
 
