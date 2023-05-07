@@ -22,6 +22,10 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
+<<<<<<< HEAD
     "hexo-theme-next": "^8.16.0"
+=======
+    "hexo-theme-next": "^8.15.1"
+>>>>>>> 233bfd0abe6e3b6f4b702a2a9ce48111d4340680
   }
 }
