@@ -83,13 +83,13 @@ Windows Powershell 用户
 Windows cmd 用户
 
 ```bash
-    adb reboot sideload # 这应该显示您的设备链接
+    adb reboot sideload # 这应该重启到sideload
 ```
 
 Windows Powershell 用户
 
 ```bash
-    .\adb.exe reboot sideload # 这应该显示您的设备链接
+    .\adb.exe reboot sideload # 这应该重启到sideload接
 ```
 
 ### sideload ROM
